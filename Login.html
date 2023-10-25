@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style_l.css">
+  <script src="https://kit.fontawesome.com/d40c21de34.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a class="active" href="Login.html">Login</a>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <!-- <a href="Login.html">Login</a> -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="container">
+
+    <!-- Login Form -->
+    <div class="login-wrap active">
+      <div class="title">
+        <h1>LogIn</h1>
+      </div>
+
+      <form action="#">
+        <div class="input-area">
+          <input type="email" id="email" autocomplete="off" required>
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-area">
+          <input type="password" id="password"  required>
+          <label for="password">Password</label>
+        </div>
+        
+        <div class="forget-pass">
+          <a href="#">Forget Password?</a>
+        </div>
+
+        <div class="button-area">
+          <button class="login-btn" href="index.html">Login</button>
+        </div>
+
+        <div class="form-toggle-area">
+          <p>Don't have an account? &nbsp &nbsp<span id="toggle-signup">SignUp</span></p>
+        </div>
+      </form>
+    </div>
+  
+
+
+    <!-- Signup Form -->
+    <div class="signup-wrap">
+      <div class="title">
+        <h1>Signup</h1>
+      </div>
+
+      <form action="#">
+        <div class="input-area">
+          <input type="text" id="name" autocomplete="off" required>
+          <label for="name">Name</label>
+        </div>
+
+        <div class="input-area">
+          <input type="email" id="email" autocomplete="off" required>
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-area">
+          <input type="password" id="password"  required>
+          <label for="password">Password</label>
+        </div>
+
+        <div class="button-area">
+          <button class="signup-btn">Signup</button>
+        </div>
+
+        <div class="form-toggle-area">
+          <p>Already have an account? &nbsp &nbsp<span id="toggle-login">LogIn</span></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <footer id="footerinfo">
+    <div class="footercontainer">
+      <img class="bg1" src="images/bg1.png" alt="design1">
+      <img class="bg2" src="images/bg2.png" alt="design2">
+      <img class="bg3" src="images/bg3.png" alt="design3">
+      <img class="bg2left" src="images/bg2.png" alt="design2">
+      <img class="bg3left" src="images/bg3.png" alt="design3">
+      <div class="lastfoot">
+        <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+        margin-bottom: 12px;
+        font-size: 25px;">Contact Us</h2>
+        <div class="contact">
+          <b style="color: cyan; font-size: 18px; line-height: 40px;"><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp Address:</b><br/>
+          Mp nagar, Bhopal, India<br />
+          <b style="color: cyan; font-size: 18px; line-height: 40px;"><i class="fa-solid fa-envelope"></i>&nbsp Email:</b><br />
+          info@domain.com<br /><br />
+          <b style="color: cyan; font-size: 18px; line-height: 40px;"><i class="fa-solid fa-phone"></i>&nbsp Phone:</b><br />
+          (+91) 7654323456
+        </div>
+      </div>
+
+      <div class="lastfoot">
+        <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+        margin-bottom: 12px;
+        font-size: 25px;">Social Handles</h2>
+        <div class="handles">
+          <i class="fa-lg fa-brands fa-instagram"></i> &nbsp
+          <i class="fa-lg fa-brands fa-facebook"></i> &nbsp
+          <i class="fa-lg fa-brands fa-twitter"></i>&nbsp
+          <i class="fa-lg fa-brands fa-linkedin"></i> &nbsp
+        </div>
+      </div>
+
+      <div class="lastfoot">
+      <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+      margin-bottom: 12px;
+      font-size: 25px;">What We offer</h2>
+      <ul>
+        <p>- &nbsp Resort</p>
+        <p>- &nbsp Dining</p>
+        <p>- &nbsp Spa</p>
+        <p>- &nbsp Yatch</p>
+        <p>- &nbsp Bar</p>
+      </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="copy">
+    <p>Copyright &copy; 2023 Villa</p>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
